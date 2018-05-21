@@ -1,2 +1,2 @@
 # rocketjob-centos7
-CentOS 7 container for RocketJob (ruby) tools.
+CentOS 7 container for ruby app deployment.
