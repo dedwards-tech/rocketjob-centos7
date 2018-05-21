@@ -16,7 +16,6 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 # install ruby 2.4.4 release version and make it global
 rbenv install 2.4.4 ; rbenv global 2.4.4 ; rbenv versions ; ruby -v
 
-# disable gem documentation
-#gem update -q --no-rdoc
+# Install gems from Gemfile
 gem install bundler
 bundle install
