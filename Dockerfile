@@ -15,6 +15,8 @@ RUN ./install-ruby.sh
 
 RUN yum install -y https://centos7.iuscommunity.org/ius-release.rpm  && yum update -y
 RUN yum install -y python36u python36u-libs python36u-devel python36u-pip
+RUN yum install -y wget unzip zip
+RUN ln -s /usr/bin/python3.6 /usr/bin/python3
 
 # cleanup
 RUN yum clean all && rm -rf /var/cache/yum
